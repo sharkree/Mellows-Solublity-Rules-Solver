@@ -1,5 +1,7 @@
 # Source: https://usaco.guide/general/io
 
+# fyi that line wraps are neglected lol
+
 group_1 = {"H", "Li", "Na", "K", "Rb", "Cs"}
 group_2 = {"Be", "Mg", "Ca", "Sr", "Ba"}
 select_group_2 = {"Ca", "Sr", "Ba"}
@@ -7,6 +9,10 @@ weak_polyatomics = {"NO3", "C2H3O2", "CH3COO", "ClO4"}
 insoluble_metals = {"Ag", "Pb", "Hg"}
 select_halogens = {"Cl", "Br", "I"}
 insoluble_anions = {"CO3", "CrO4", "PO4", "S", "O", "OH"}
+
+# these are from an additional polyatomic ions reference sheet i found on schoology from last semester.
+minus_one_charge = {"H", "F", "Cl", "Br", "I", "CH3COO", "C2H3O2", "N3", "BrO3", "ClO3", "ClO2", "CN", "H2PO4", "HCO3", "HSO4", "HSO3", "OH", "ClO", "NO3", "NO2", "ClO4", "MnO4", "SCN"}
+minus_two_or_three_charge = {"CO3", "CrO4", "Cr2O7", "HPO4", "MnO4", "C2O4", "O2", "SiO3", "SO4", "SO3", "S2O3", "AsO4", "PO4", "PO3"}
 
 # cation = input("Cation: \n")
 # anion = input("Anion: \n")
